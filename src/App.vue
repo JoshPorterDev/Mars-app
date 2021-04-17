@@ -1,19 +1,16 @@
 <template>
-  <NavBar />
-  <Rovers />
+    <Navbar />
+    <!-- <router-link to="/">Home</router-link> |
+    <router-link to="/">Home</router-link> -->
+  <router-view/>
 </template>
 
 <script>
-import NavBar from './components/Navbar.vue'
-import Rovers from './components/Rovers.vue'
-import Photo from './components/Photo.vue'
+import Navbar from './components/Navbar.vue'
 
 export default {
-  name: 'App',
   components: {
-    NavBar,
-    Rovers,
-    Photo
+    Navbar
   }
 }
 </script>
@@ -23,12 +20,23 @@ html {
   background: #2c3e50;
 }
 #app {
-  background: #2c3e50;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* text-align: center;  */
-  color: white; 
-  /* margin-top: 60px;  */
+  /* text-align: center; */
+  /* color: #2c3e50; */
 }
+
+/* #nav {
+  padding: 30px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: #42b983;
+} */
 </style>

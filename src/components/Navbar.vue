@@ -6,9 +6,9 @@
       </label>
       <label class="logo">Mars Rover</label>
       <ul id="ul">
-          <li><a class="active" href="#">Home</a></li>
-          <li><a href="#">Rovers</a></li>
-          <li><a href="#">Latest Photo</a></li>
+          <li><router-link to="/">Home</router-link></li>
+          <li><router-link to="/rovers">Rovers</router-link></li>
+          <li><router-link to="/latest_photo">Latest Photo</router-link></li>
       </ul>
   </nav>
 </template>

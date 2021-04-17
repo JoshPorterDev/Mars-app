@@ -59,6 +59,7 @@ export default {
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
+    color: white;
 }
 .container {
   display: grid;
@@ -81,8 +82,13 @@ export default {
   border-radius: 30px;
 }
 
+h1 {
+  color: white;
+}
+
 .box h1 {
     margin-top: 40px;
+    color: white;
 }
 
 .roverName {
